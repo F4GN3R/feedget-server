@@ -12,7 +12,7 @@ API para realizar o cadastro dos feedbacks enviados em uma base de dados e dispa
 - [ ] Nodemailer
 - [ ] Conceitos de SOLID
 
-## :hammer_and_wrench: Features
+## 🛠 Features
 
 - [ ] Endpoint para envio de feedbacks (`/feedbacks`);
 - [ ] Integração com banco de dados via Prisma;
