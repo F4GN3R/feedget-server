@@ -81,7 +81,7 @@ npx prisma studio
 npm run dev
 ```
 
-8. Se tudo estiver ok, você terá umas saída semelhante a essa no terminal e a API estará pronta para receber requisições:
+8. Se tudo estiver correto, uma saída semelhante a essa será obtida no terminal e a API estará pronta para receber requisições:
 
 ```cl
 [INFO] 13:26:35 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.1, typescript ver. 4.8.3)
