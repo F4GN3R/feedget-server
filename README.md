@@ -13,7 +13,6 @@ API para realizar o cadastro dos feedbacks enviados em uma base de dados e dispa
 
 ## 🛠 Features
 
-- Endpoint para envio de feedbacks (`/feedbacks`);
 - Integração com banco de dados via Prisma;
 - Testes unitários;
 - Integração com serviço de envio de e-mail;
