@@ -18,16 +18,16 @@ API para realizar o cadastro dos feedbacks enviados em uma base de dados e dispa
 - [ ] Integração com banco de dados via Prisma;
 - [ ] Utilização de conceitos de SOLID;
 - [ ] Testes unitários;
-- [ ] Disparo de email`s para endereço cadastrado;
+- [ ] Integração com serviço de envio de e-mail;
 - [ ] Verificação de regras de negócio antes de persistir os dados no DB;
 
 ## 🌎 Deploy
 
 O serviço está disponível através [desse link](https://feedget-server-production-3c1c.up.railway.app/).
 
-## 🔵 Executando o projeto
+## 🚀 Executando o projeto
 
-Node => v16.17.0
+**Node v16.17.0 >**
 
 1. Instalar as dependências do projeto:
 
@@ -44,7 +44,7 @@ npm install
 }
 ```
 
-3. Criar um arquivo de variáveis `.env` na raiz do projeto com o local do SQLite:
+3. Criar um arquivo de variáveis `.env` na raiz do projeto com a url do SQLite:
 
 ```cl
 DATABASE_URL="file:./dev.db"
