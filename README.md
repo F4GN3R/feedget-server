@@ -35,7 +35,7 @@ O serviço está disponível através [desse link](https://feedget-server-produc
 1. Instalar as dependências do projeto:
 
 ```cl
-npm install
+$ npm install
 ```
 
 2. Alterar o provider do Prisma para SQLite:
@@ -56,13 +56,13 @@ DATABASE_URL="file:./dev.db"
 4. Execute as migrations do Prisma para gerar as tabelas no DB:
 
 ```cl
-npx prisma migrate dev -n create_feedbacks init
+$ npx prisma migrate dev -n create_feedbacks init
 ```
 
 5. O prisma fornece uma ferramenta para visualização das tabelas, confirme se as colunas foram criadas corretamente executando:
 
 ```cl
-npx prisma studio
+$ npx prisma studio
 ```
 
 6. Para testar o envio de e-mail utilize o serviço de sandbox de e-mail da [mailtrap.io](https://mailtrap.io/). Você deve criar uma conta e alterar as credenciais do arquivo `nodemailer-mail-adpter.ts`:
@@ -81,7 +81,7 @@ npx prisma studio
 7. Execute o projeto:
 
 ```cl
-npm run dev
+$ npm run dev
 ```
 
 8. Se tudo estiver correto, uma saída semelhante a essa será obtida no terminal e a API estará pronta para receber requisições:
@@ -94,7 +94,7 @@ HTTP server running
 9. (Opcional) Para executar os testes:
 
 ```cl
-npm run test
+$ npm run test
 ```
 
 ## 📓 Documentação da API
@@ -102,7 +102,7 @@ npm run test
 #### Cadastrar um feedback
 
 ```cl
-  POST /feedbacks
+POST /feedbacks
 ```
 
 | Parâmetro    | Tipo                 | Descrição                         |
