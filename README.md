@@ -101,7 +101,7 @@ npm run test
 
 #### Cadastrar um feedback
 
-```http
+```cl
   POST /feedbacks
 ```
 
