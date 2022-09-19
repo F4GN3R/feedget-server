@@ -105,7 +105,7 @@ $ npm run test
 POST /feedbacks
 ```
 
-| Parâmetro    | Tipo                       | Descrição                         |
+| Body         | Tipo                       | Descrição                         |
 | :----------- | :------------------------- | :-------------------------------- |
 | `type`       | `"BUG" - "IDEA" - "OTHER"` | **Obrigatório**. Tipo do feedback |
 | `comment`    | `string`                   | **Obrigatório**. Comentário       |
