@@ -4,26 +4,26 @@ API para realizar o cadastro dos feedbacks enviados em uma base de dados e dispa
 
 ## ✨ Tecnologias
 
-- [.] Node
-- [.] Typescript
-- [.] Express
-- [.] Prisma
-- [.] Jest
-- [.] Nodemailer
+- [x] Node
+- [x] Typescript
+- [x] Express
+- [x] Prisma
+- [x] Jest
+- [x] Nodemailer
 
 ## 🛠 Features
 
-- [.] Endpoint para envio de feedbacks (`/feedbacks`);
-- [.] Integração com banco de dados via Prisma;
-- [.] Testes unitários;
-- [.] Integração com serviço de envio de e-mail;
-- [.] Verificação de regras de negócio antes de persistir os dados no DB;
-- [.] Utilização dos princípio de SOLID;
-  -- [.] Single Responsability Principle (Princípio da Responsabilidade Única);
-  -- [.] Open/Closed Principle (Princípio do “Aberto para Extensão/Fechado para Implementação);
-  -- [.] Liskov Substitution Principle (Princípio da Substituição de Liskov);
-  -- [.] Interface Segregation Principle (Princípio da Segregação de Interfaces);
-  -- [.] Dependency Inversion Principle (Princípio da Inversão de Dependências);
+- Endpoint para envio de feedbacks (`/feedbacks`);
+- Integração com banco de dados via Prisma;
+- Testes unitários;
+- Integração com serviço de envio de e-mail;
+- Verificação de regras de negócio antes de persistir os dados no DB;
+- Utilização dos princípio de SOLID;
+  - Single Responsability Principle (Princípio da Responsabilidade Única);
+  - Open/Closed Principle (Princípio do “Aberto para Extensão/Fechado para Implementação);
+  - Liskov Substitution Principle (Princípio da Substituição de Liskov);
+  - Interface Segregation Principle (Princípio da Segregação de Interfaces);
+  - Dependency Inversion Principle (Princípio da Inversão de Dependências);
 
 ## 🌎 Deploy
 
@@ -97,6 +97,20 @@ HTTP server running
 ```cl
 npm run test
 ```
+
+## 📓 Documentação da API
+
+#### Cadastrar um feedback
+
+```http
+  POST /feedbacks
+```
+
+| Parâmetro    | Tipo     | Descrição                   |
+| :----------- | :------- | :-------------------------- | ------ | --------------------------------- |
+| `type`       | `BUG     | IDEA                        | OTHER` | **Obrigatório**. Tipo do feedback |
+| `comment`    | `string` | **Obrigatório**. Comentário |
+| `screenshot` | `string` | Imagem no formato base64    |
 
 ## 📄 Licença
 
